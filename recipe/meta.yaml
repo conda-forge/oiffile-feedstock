@@ -29,7 +29,6 @@ test:
   commands:
     - pip list
     - pip check
-    - python -c "from oiffile import OifFile"
   requires:
     - pip
 
