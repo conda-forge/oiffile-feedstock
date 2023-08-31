@@ -1,5 +1,5 @@
 {% set name = "oiffile" %}
-{% set version = "2022.9.29" %}
+{% set version = "2023.8.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/oiffile-{{ version }}.tar.gz
-  sha256: 3288717c83d882ab7d07463252edee764308daf26533ba88fd8883bf20f318e3
+  sha256: cb1baad8bceec1d950e8ee7245093af044f3e13d4a5ab930bae88a30a05b050c
 
 build:
   noarch: python
