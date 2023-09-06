@@ -17,11 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
+    - setuptools
   run:
-    - numpy >=1.15.1
-    - python >=3.8
-    - tifffile >=2020.6.3
+    - matplotlib-base
+    - numpy
+    - python >=3.9
+    - tifffile
 
 test:
   imports:
@@ -33,7 +35,7 @@ test:
     - pip
 
 about:
-  home: https://www.lfd.uci.edu/~gohlke/
+  home: https://pypi.org/project/oiffile
   summary: Read Olympus(r) image files (OIF and OIB)
   license: BSD-3-Clause
   license_file: LICENSE
