@@ -1,11 +1,11 @@
-About oiffile
-=============
+About oiffile-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oiffile-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.lfd.uci.edu/~gohlke/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oiffile-feedstock/blob/main/LICENSE.txt)
 
 Summary: Read Olympus(r) image files (OIF and OIB)
 
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@conda-forge/napari](https://github.com/conda-forge/napari/)
+* [@goanpeca](https://github.com/goanpeca/)
+* [@jaimergp](https://github.com/jaimergp/)
 
