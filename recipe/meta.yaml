@@ -1,6 +1,6 @@
 {% set name = "oiffile" %}
-{% set version = "2026.1.8" %}
-{% set sha256 = "1d41f51258f19006228d70e357d1a90a76a8f4daad2447bdbf7bd3d362dfc233" %}
+{% set version = "2026.2.8" %}
+{% set sha256 = "89c008104fd41a83513e3f8971783b04cc1d6b22290740650b6e1eef51b1c8e2" %}
 {% set python_min = "3.11" %}
 
 package:
