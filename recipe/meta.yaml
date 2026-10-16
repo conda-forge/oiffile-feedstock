@@ -1,14 +1,14 @@
 {% set name = "oiffile" %}
-{% set version = "2026.2.8" %}
-{% set sha256 = "89c008104fd41a83513e3f8971783b04cc1d6b22290740650b6e1eef51b1c8e2" %}
-{% set python_min = "3.11" %}
+{% set version = "2026.10.15" %}
+{% set sha256 = "7321f5d492c02f1f477b0bc6f8323b4171c49ba0e9076b5cb9ffdca6d0902273" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -23,9 +23,9 @@ requirements:
     - setuptools
   run:
     - matplotlib-base
-    - numpy
+    - numpy >=2.0.0
     - python >={{ python_min }}
-    - tifffile
+    - tifffile >=2026.10.15
 
 test:
   imports:
